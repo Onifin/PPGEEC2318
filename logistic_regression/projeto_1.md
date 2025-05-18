@@ -48,7 +48,25 @@ The set has 35 columns, 33 of which are attributes, such as those mentioned abov
 
 ## Quantitative Analyses
 
+![Correlation Matrix](correlation_matrix.pdf)
 
+![Training & Validation Losses](losses.pdf)
+
+<div style="display: flex; gap: 20px; align-items: flex-start;">
+  <div>
+    ![Confusion Matrix (Counts)](confusion_matrix.pdf)
+  </div>
+  <div>
+    ![Confusion Matrix (%)](confusion_matrix_total_percent.pdf)
+  </div>
+</div>
+
+**Model Performance Metrics**
+
+- **Loss:** 0.3741  
+- **Validation Loss:** 0.3733  
+- **Validation Accuracy:** 0.8605  
+- **Validation F1 Score:** 0.7902  
 
 ## Ethical Considerations
 
