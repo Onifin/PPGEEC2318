@@ -50,12 +50,21 @@ The set has 35 columns, 33 of which are attributes, such as those mentioned abov
 
 ![Correlation Matrix](images/correlation_matrix.png)
 
+The top five correlations reveal a linear relationships with the diagnosis (positive or negative).
+
 ![Training & Validation Losses](images/losses.png)
 
+The close proximity between the training and validation curves, and the fact that both have converged stably, indicate **good fit** and **absence of overfitting**.
+
+We observe that, despite the model not exhibitings overfitting, its performance did not improve further as the number of epochs increased, indicating a local minimum of the loss function.
+
 ![Confusion Matrix (Counts)](images/confusion_matrix.png)
+
+The count-based matrix shows the absolute numbers of true positives/negatives and false positives/negatives.
  
 ![Confusion Matrix (%)](images/confusion_matrix_total_percent.png)
 
+The percentage-based matrix makes it easier to compare performance across classes, showing, for example, whether the model has lower sensitivity (recall) for positives or better specificity for negatives.
 
 **Model Performance Metrics**
 
