@@ -22,14 +22,7 @@ The model was developed for **educational purposes**, specifically for the cours
 
 ## 📈 Factors
 
-The dataset contains natural images of animals sourced from **Google Images**, divided into 10 classes. However, the number of images per class is **not balanced**.
-
-To address this, **Class Weights** were used in the loss function during training, which increased the penalty for incorrect predictions in underrepresented classes. This ensures fairer treatment of all classes, especially:
-
-* Cavalo (horse)
-* Galinha (chicken)
-* Aranha (spider)
-* Cachorro (dog)
+The dataset consists of natural animal images collected from Google Images, organized into 10 categories: dog, cat, horse, spider, butterfly, chicken, sheep, cow, squirrel, and elephant. It contains approximately 28,000 medium-quality images.
 
 ---
 
@@ -39,8 +32,7 @@ The model’s performance was evaluated using:
 
 * **Accuracy:** proportion of correct predictions over all predictions
 * **Confusion Matrix:** shows the correct and incorrect predictions per class
-* **Loss Function:** CrossEntropyLoss with class weights applied
-* (Optional metrics such as F1-score can be added in further evaluations)
+* **Loss Function:** CrossEntropyLoss
 
 ---
 
@@ -89,8 +81,6 @@ All images were resized and normalized. No missing data or imputation was necess
 ---
 
 ## 📉 Quantitative Analyses
-
-### 👁️ Arquiteturas Testadas
 
 **1st Model:**
 
